@@ -9,7 +9,7 @@ app.use(express.json());
 
 app.use(
   cors({
-    origin: "https://activityhub-frontend-production.up.railway.app",
+    origin: "https://activityhubop.up.railway.app",
     credentials: true,
   })
 );
